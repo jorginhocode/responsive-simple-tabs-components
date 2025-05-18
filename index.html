@@ -7,26 +7,40 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/CSS/styles.css">
 
-    <title>To Do List | Jorginho J.</title>
+    <title>Responsive Simple Tabs Components | Jorginho J.</title>
 </head>
 <body>
 
     <div class="container">
-        <div class="title">
-            <h1>To Do List App</h1>
-            <p>A simple tool to organize and track your daily tasks - your personal reminder for pending activities.</p>
+        
+      <div class="tabs">
+        <div class="tab-header">
+            <button class="tab-btn active" data-tab="tab1">Tab 1</button>
+            <button class="tab-btn" data-tab="tab2">Tab 2</button>
+            <button class="tab-btn" data-tab="tab3">Tab 3</button>
+            <button class="tab-btn" data-tab="tab4">Tab 4</button>
         </div>
         
-        <div class="input-container">
-            <input type="text" id="taskInput" placeholder="Write here...">
-            <button id="addTaskBtn">+</button>
+        <div class="tab-content active" id="tab1">
+            <h3>Tab 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ratione commodi ad at praesentium quaerat? Quasi dolores amet cupiditate! Illum!</p>
         </div>
         
-        <ul id="taskList"></ul>
-        
-        <div class="footer">
-            <button id="clearAllBtn">Clear All <i class="ri-arrow-right-line"></i></button>
+        <div class="tab-content" id="tab2">
+            <h3>Tab 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aut ducimus nemo, explicabo quo reprehenderit ratione molestiae sequi minima laboriosam.</p>
         </div>
+        
+        <div class="tab-content" id="tab3">
+            <h3>Tab 3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, consequatur incidunt hic expedita ad eligendi esse unde. Maiores, explicabo!</p>
+        </div>
+        
+        <div class="tab-content" id="tab4">
+            <h3>Tab 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, cupiditate voluptatibus? Quod molestiae possimus tempora, eaque a quaerat id illum?</p>
+        </div>
+    </div>
     </div>
 
 <script type="text/javascript" src="assets/js/script.js"></script>
